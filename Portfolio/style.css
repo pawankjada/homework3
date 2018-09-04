@@ -1,0 +1,99 @@
+h1 {
+    font-family: "Montserrat";
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+}
+
+h2 {
+    font-family: "Montserrat";
+    padding-top: 0px;
+    padding-right: 20px;
+    padding-left: 40px;
+    padding-bottom: 0px;
+}
+
+p {
+    font-family: "Open Sans";
+    line-height: 15px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 500px;
+    padding-bottom: 20px;
+}
+
+body {
+    background-image: url("bckgrnd.png");
+    margin: 0px;
+}
+
+header {
+    background-image: url ("bckgrnd.png");
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    grid-gap: 10px;
+    grid-template-columns: repeat(40, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.border {
+    border: 3px solid #2c5fa8;
+    border-radius: 100px;
+}
+
+.lower-border {
+    opacity: 0.6;
+    background-color: #969696;
+    padding-left: 20px;
+}
+
+center {
+    border-color: white;
+    border-top: 3px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    padding: 20px;
+}
+
+.upper-color {
+    color: #333333
+}
+
+.lower-color {
+    color: #FFFFFF;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+}
+
+.see-my-work,
+.images {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.images {
+    justify-content: space-around;
+    width: 1000px;
+}
+
+.box {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
